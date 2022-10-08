@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url(./img/bg.png);
+}
+
+main {
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5vh;
+}
+.button {
+    width: 80px;
+    height: 50px;
+    background-color: blue;
+    color: cornsilk;
+    display: flex;
+    gap: 200px;
+    padding: 5px;
+    text-align: right;
+}
