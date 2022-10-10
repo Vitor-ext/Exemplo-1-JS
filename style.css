@@ -3,23 +3,29 @@
     padding: 0;
     box-sizing: border-box;
     background-image: url(./img/bg.png);
+    flex-direction: row;
 }
 
 main {
     display: flex;
     height: 100vh;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 5vh;
+    /* justify-content: center; */
+    gap: 20vh;
+    padding: 20px;
+    align-items: flex-start;
 }
 .button {
     width: 80px;
     height: 50px;
-    background-color: blue;
-    color: cornsilk;
-    display: flex;
+    color: rgb(0, 0, 0);
+    display: flex; 
     gap: 200px;
     padding: 5px;
-    text-align: right;
+    text-align: end;
+    flex-direction: row;
+}
+
+.img{
+    align-items: space-around;
+
 }
