@@ -3,10 +3,11 @@
     padding: 0;
     box-sizing: border-box;
     flex-direction: row;
+    display: flexbox;
 }
 
 body{
-    background-image: url(./img/bg.png);
+    background-color: black;
     background-repeat: no-repeat;
     background-size: cover;
     display: list-item;
@@ -47,4 +48,12 @@ footer{
     font-style: italic;
     color: #fff;
     align-self: flex-end;
+}
+
+@media (max-width:768px) {
+    body{
+        padding: 30px 30px 25px 30px;
+        background-color: #0006;
+        display: grid;
+    }
 }
